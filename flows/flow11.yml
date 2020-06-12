@@ -4,9 +4,10 @@ completion_text: |-
 description: |-
   asdasdas dasd asdasd as
 pages:
-- content: "#dida1\n<div class=\"lead\"><p>asd asdas dasd</p></div>\n            \
-    \    "
+- content: |-
+    <p>asd asdas dasd</p>
   id: page25
+  title: dida1
   type: Page
 rules:
   access:
