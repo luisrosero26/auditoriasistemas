@@ -1,0 +1,19 @@
+completion_text: |-
+  <p>has finalizado curso</p>
+description: |-
+  asdasdas dasd asdasd as
+pages:
+- content: "#dida1\n<div class=\"lead\"><p>asd asdas dasd</p></div>\n            \
+    \    "
+  id: page25
+  type: Page
+rules:
+  access:
+  - if_has_role:
+    - ta
+    - student
+    - instructor
+    permissions:
+    - view
+  grade_identifier: null
+title: 'Semana 1: Entorno de auditori'
