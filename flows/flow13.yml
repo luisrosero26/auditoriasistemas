@@ -6,5 +6,11 @@ next_flow_id: ''
 next_flow_title: ''
 pages: []
 rules:
+  access:
+  - if_has_role:
+    - student
+    - instructor
+    permissions:
+    - view
   grade_identifier: null
 title: 'Semana 2 : Aplicando la teoria'
