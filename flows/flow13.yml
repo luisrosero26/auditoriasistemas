@@ -2,8 +2,8 @@ completion_text: |-
   <p>Haz completado esta segunda seman exitorisamente</p><p><br></p><p><img src="https://via.placeholder.com/300" style="width: 300px;"><br></p>
 description: |-
   esta seman se aplicara la teoria
-next_flow_id: ''
-next_flow_title: ''
+next_flow_id: quiz14
+next_flow_title: Tomar quiz
 pages:
 - content: |-
     <p>aqui estaran todo lo mejor</p><p><br></p><p><img src="https://via.placeholder.com/300" style="width: 300px;"><br></p>
