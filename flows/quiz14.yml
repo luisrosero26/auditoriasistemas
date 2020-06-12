@@ -36,4 +36,6 @@ rules:
     - instructor
     may_list_existing_sessions: true
     may_start_new_session: true
+  - may_list_existing_sessions: true
+    may_start_new_session: true
 title: Quiz 2
