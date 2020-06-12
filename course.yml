@@ -13,14 +13,14 @@ chunks:
     title: 'Semana 1: Entorno de auditori'
     title_next_flow: quiz
   - flow_id: flow13
-    next_flow: null
+    next_flow: quiz14
     pages:
     - flow_id: page29
       title: clase 1
     - flow_id: page30
       title: clase 2
     title: 'Semana 2 : Aplicando la teoria'
-    title_next_flow: ''
+    title_next_flow: Tomar quiz
   id: welcome
   introduction: Es un curso completo para prevenir error en el flijo
   rules: []
