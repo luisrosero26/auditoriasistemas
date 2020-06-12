@@ -25,12 +25,8 @@ groups:
   shuffle: false
 rules:
   access:
-  - message: !!python/object/apply:django.utils.functional._lazy_proxy_unpickle
-    - !!python/name:django.utils.translation.gettext ''
-    - !!python/tuple
-      - "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de acceso"
-    - {}
-    - !!python/name:builtins.str ''
+  - message: "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de\
+      \ acceso"
     permissions:
     - view
     - submit_answer
