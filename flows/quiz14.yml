@@ -32,7 +32,6 @@ rules:
     if_has_fewer_sessions_than: 1
     if_has_role:
     - student
-    - ta
     - instructor
     may_list_existing_sessions: true
     may_start_new_session: true
