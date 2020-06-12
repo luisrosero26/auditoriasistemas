@@ -5,7 +5,9 @@ chunks:
     next_flow: quiz12
     pages:
     - flow_id: page25
-      title: dida1
+      title: 'dia 1: Requisitos'
+    - flow_id: page27
+      title: 'Dia 2: principios fundamentos'
     title: 'Semana 1: Entorno de auditori'
     title_next_flow: quiz
   id: welcome
