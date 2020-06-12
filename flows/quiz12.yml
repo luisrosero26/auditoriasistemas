@@ -5,8 +5,8 @@ description: |-
 groups:
 - id: intro
   pages:
-  - content: |-
-      <p>Este es el contenido del quiz&nbsp;</p>
+  - content: "#Quiz 1\n<p>Este es el contenido del quiz&nbsp;</p></div>\n        \
+      \                "
     id: welcome
     title: Quiz 1
     type: Page
