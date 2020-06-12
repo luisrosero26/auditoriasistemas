@@ -16,9 +16,8 @@ groups:
     - '11'
     - ~CORRECT~ 13
     id: quizquestion26
-    prompt: '#Cuantos colores tiene la mechita
-
-      None'
+    prompt: ''
+    title: Cuantos colores tiene la mechita
     type: ChoiceQuestion
     value: 5.0
   shuffle: false
