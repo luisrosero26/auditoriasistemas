@@ -1,12 +1,12 @@
 completion_text: |-
   <p>as dasdas dasd asdasd</p>
 description: |-
-  asdasd
+  Es un quiz muy sencillo
 groups:
 - id: intro
   pages:
   - content: |-
-      <p>asdasd asd asdasd asd</p>
+      <p>Este es el contenido del quiz&nbsp;</p>
     id: welcome
     title: Quiz 1
     type: Page
