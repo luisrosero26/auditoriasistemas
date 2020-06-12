@@ -1,5 +1,6 @@
 completion_text: |-
   <p>has finalizado curso</p>
+  <a href="flow:quiz12" class="btn btn-primary">quiz</a>
 description: |-
   asdasdas dasd asdasd as
 pages:
