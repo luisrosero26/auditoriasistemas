@@ -1,0 +1,39 @@
+completion_text: |-
+  <p>Ha terminado el curso satisfatoriamente</p><p><br></p><p><img src="https://via.placeholder.com/300" style="width: 300px;"><br></p>
+description: |-
+  Un quiz final que se dara el 100% del curso
+groups:
+- id: intro
+  pages:
+  - content: "<p>ESte quiz esta dirigido a todos los alumnos es el final</p><p><br></p><p><img\
+      \ src=\"https://via.placeholder.com/300\" style=\"width: 300px;\"><br></p> "
+    id: welcome
+    title: Quiz 2
+    type: Page
+- id: quiz_start
+  pages: []
+  shuffle: true
+rules:
+  access:
+  - message: "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de\
+      \ acceso"
+    permissions:
+    - view
+    - submit_answer
+    - end_session
+    - see_correctness
+    - see_answer_after_submission
+  grade_aggregation_strategy: use_earliest
+  grade_identifier: quiz14
+  grading:
+  - credit_percent: 50
+  start:
+  - if_before: 2020-06-17 15:19:11
+    if_has_fewer_sessions_than: 1
+    if_has_role:
+    - student
+    - ta
+    - instructor
+    may_list_existing_sessions: true
+    may_start_new_session: true
+title: Quiz 2
