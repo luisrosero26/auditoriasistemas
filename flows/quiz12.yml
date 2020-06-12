@@ -5,9 +5,10 @@ description: |-
 groups:
 - id: intro
   pages:
-  - content: "#Quiz 1\n<p>asdasd asd asdasd asd</p></div>\n                      \
-      \  "
+  - content: |-
+      <p>asdasd asd asdasd asd</p>
     id: welcome
+    title: Quiz 1
     type: Page
 - id: quiz_start
   pages:
@@ -24,7 +25,12 @@ groups:
   shuffle: false
 rules:
   access:
-  - message: Welcome! This message is brought to you by the access rules.
+  - message: !!python/object/apply:django.utils.functional._lazy_proxy_unpickle
+    - !!python/name:django.utils.translation.gettext ''
+    - !!python/tuple
+      - "\xA1Bienvenidos! Este mensaje es tra\xEDdo a usted por las reglas de acceso"
+    - {}
+    - !!python/name:builtins.str ''
     permissions:
     - view
     - submit_answer
