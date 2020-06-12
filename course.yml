@@ -1,0 +1,14 @@
+chunks:
+- content: ''
+  flows:
+  - flow_id: flow11
+    next_flow: null
+    pages:
+    - flow_id: page25
+      title: dida1
+    title: 'Semana 1: Entorno de auditori'
+    title_next_flow: ''
+  id: welcome
+  introduction: Es un curso completo para prevenir error en el flijo
+  rules: []
+  title: Auditoria de sistemas
