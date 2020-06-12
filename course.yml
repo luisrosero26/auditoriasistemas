@@ -14,7 +14,11 @@ chunks:
     title_next_flow: quiz
   - flow_id: flow13
     next_flow: null
-    pages: []
+    pages:
+    - flow_id: page29
+      title: clase 1
+    - flow_id: page30
+      title: clase 2
     title: 'Semana 2 : Aplicando la teoria'
     title_next_flow: ''
   id: welcome
