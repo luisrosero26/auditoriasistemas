@@ -4,7 +4,17 @@ description: |-
   esta seman se aplicara la teoria
 next_flow_id: ''
 next_flow_title: ''
-pages: []
+pages:
+- content: |-
+    <p>aqui estaran todo lo mejor</p><p><br></p><p><img src="https://via.placeholder.com/300" style="width: 300px;"><br></p>
+  id: page29
+  title: clase 1
+  type: Page
+- content: |-
+    <p>ES importante que aplique esto</p><p><img src="https://via.placeholder.com/300" style="width: 100%;"><br></p>
+  id: page30
+  title: clase 2
+  type: Page
 rules:
   access:
   - if_has_role:
