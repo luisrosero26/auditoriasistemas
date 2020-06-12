@@ -8,7 +8,12 @@ pages:
 - content: |-
     <p>asd asdas dasd</p>
   id: page25
-  title: dida1
+  title: 'dia 1: Requisitos'
+  type: Page
+- content: |-
+    <p>Hola amiguitos como estas</p><p><br></p><p><br></p>
+  id: page27
+  title: 'Dia 2: principios fundamentos'
   type: Page
 rules:
   access:
