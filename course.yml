@@ -2,12 +2,12 @@ chunks:
 - content: ''
   flows:
   - flow_id: flow11
-    next_flow: null
+    next_flow: quiz12
     pages:
     - flow_id: page25
       title: dida1
     title: 'Semana 1: Entorno de auditori'
-    title_next_flow: ''
+    title_next_flow: quiz
   id: welcome
   introduction: Es un curso completo para prevenir error en el flijo
   rules: []
