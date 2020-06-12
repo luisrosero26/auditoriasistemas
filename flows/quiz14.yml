@@ -11,7 +11,32 @@ groups:
     title: Quiz 2
     type: Page
 - id: quiz_start
-  pages: []
+  pages:
+  - answers:
+    - <plain>25
+    id: quizquestion31
+    prompt: ''
+    title: "Cuantos a\xF1os tengo?"
+    type: TextQuestion
+    value: 2.0
+  - answers:
+    - rtol: 0.0
+      type: float
+      value: '1.70'
+    id: quizquestion32
+    prompt: ''
+    title: Cuando mides?
+    type: TextQuestion
+    value: 3.0
+  - choices:
+    - '10'
+    - ~CORRECT~ 32
+    - '24'
+    id: quizquestion33
+    prompt: ''
+    title: Cuantos dpto tiene colombia
+    type: ChoiceQuestion
+    value: 5.0
   shuffle: true
 rules:
   access:
