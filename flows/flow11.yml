@@ -20,6 +20,11 @@ pages:
   id: page28
   title: 'dia 3: Final de teoria'
   type: Page
+- content: |-
+    <p>aqui es una prueba</p>
+  id: page34
+  title: dia 4
+  type: Page
 rules:
   access:
   - if_has_role:
